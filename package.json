@@ -1,0 +1,23 @@
+{
+  "name": "showtimes-scraper",
+  "version": "1.0.0",
+  "description": "Scrape showtimes from chains' websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "browserify": "browserify index.js -s theaters -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ken107/showtimes-scraper.git"
+  },
+  "author": "Hai Phan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ken107/showtimes-scraper/issues"
+  },
+  "homepage": "https://github.com/ken107/showtimes-scraper#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0"
+  }
+}

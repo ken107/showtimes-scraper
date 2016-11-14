@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://www.promisejs.org/polyfills/promise-6.1.0.js"></script>
+  <script src="bundle.js"></script>
+  <script>
+    theaters.regency
+      .getShowtimes(37)
+      .then(console.log.bind(console))
+      .catch(console.log.bind(console));
+  </script>
+</head>
+<body>
+</body>
+</htm>
